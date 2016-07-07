@@ -1,0 +1,14 @@
+{
+  "name": "yaml_html",
+  "version": "1.0.0",
+  "description": "YAML to HTML converter",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Test yaml.\""
+  },
+  "dependencies": {
+    "js-yaml": "*"
+  },
+  "author": "Chris Potter",
+  "license": "MIT"
+}

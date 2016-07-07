@@ -1,0 +1,48 @@
+form:
+  first_name:
+    type: text
+    label: First Name
+    placeholder: First Name
+  last_name:
+    type: text
+    label: Last Name
+    placeholder: Last Name
+  date_of_birth:
+    type: date
+    label: Date
+  password:
+    type: password
+    label: Password
+  gender:
+    type: radio
+    label: What Gender you is
+    options:
+      male: Male
+      female: Female
+      both: Both
+      neither: Neither
+      bmo: BMO
+  description:
+    type: textarea
+    attributes:
+      rows: 10
+      cols: 30
+  security_question:
+    type: select
+    options:
+      first: Father's maiden name
+      second: Elemntary School name in High School
+      third: Favorite teacher's middle name
+    label: Please choose a security question.
+  disney_characters:
+      type: multiple
+      options:
+        mickey: Mickey Mouse
+        minnie: Minnie Mouse
+        donald: Donald Duck
+        bugs: Bugs Bunny
+        boop: Betty Boop
+      label: Please choose all the Disney Characters
+  newsletter:
+      type: checkbox
+      label: Would you like to sign up for our newsletter?
